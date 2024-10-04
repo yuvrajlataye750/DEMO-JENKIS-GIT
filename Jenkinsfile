@@ -4,6 +4,7 @@ pipeline{
         stage("code"){
             steps{
                 git url: "https://github.com/yuvrajlataye750/DEMO-JENKIS-GIT.git", branch: "main"
+                input 'yes or no'
             }
         }
         stage("build"){
