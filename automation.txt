@@ -1,1 +1,3 @@
 this is simple text fiele
+
+this is test build for automation
